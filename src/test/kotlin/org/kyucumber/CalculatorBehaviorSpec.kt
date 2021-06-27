@@ -5,7 +5,7 @@ import io.kotest.core.spec.style.BehaviorSpec
 import io.kotest.inspectors.forAll
 import io.kotest.matchers.shouldBe
 
-class CalculatorBehaviorSpec : BehaviorSpec({
+internal class CalculatorBehaviorSpec : BehaviorSpec({
     val sut = Calculator()
     given("calculate") {
         val expression = "1 + 2"

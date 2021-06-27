@@ -5,7 +5,6 @@ import io.kotest.core.spec.style.AnnotationSpec
 import io.kotest.inspectors.forAll
 import io.kotest.matchers.shouldBe
 
-
 internal class CalculatorAnnotationSpec: AnnotationSpec() {
     private val sut = Calculator()
 
